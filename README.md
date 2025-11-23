@@ -1,4 +1,5 @@
-# video-communication-analyzer
+🎙️ Video Communication Analyzer
+
 A powerful Python application that analyzes a speaker's communication skills from any public video URL. This project demonstrates a full-stack approach to AI, integrating media processing, speech-to-text, and large language model (LLM) analysis to provide actionable insights.
 
 ## ✨ Key Features
@@ -115,3 +116,4 @@ video_analyzer/
 └── newenv/
     ... (virtual environment files)
 ```
+# video-communication-analyzer
