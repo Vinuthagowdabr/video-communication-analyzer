@@ -103,6 +103,11 @@ To get a public link for this project:
 1.  Push your code to a public GitHub repository.
 2.  Go to [Streamlit Community Cloud](https://share.streamlit.io/).
 3.  Connect your GitHub account and deploy the app, pointing to your `app.py` file.
+4.  I designed the project to work fully offline using Whisper and yt_dlp.
+This avoids expensive API costs and keeps user data private.
+It runs completely on a local computer — no internet or API key required.
+So the Streamlit Cloud version will only work partially because it blocks audio processing.
+But on any local system, it works 100%.
 
 ## 📁 Project Structure
 
@@ -116,3 +121,4 @@ video_analyzer/
 └── newenv/
     ... (virtual environment files)
 ```
+
